@@ -25,7 +25,7 @@ This step will properly configure your AWS account and configuration.py file so 
 
 	THIS MIGHT BE SUBJECT TO CHANGE
 		<code>ec2_keypair =  'YourKeyPairName'
-		SSH_KEY_FILE_PATH  =  './YourKeyFileName.pem'</code>
+		SSH_KEY_FILE_PATH  =  'YourKeyFileName.pem'</code>
 
 4. This step is concerned with creating the AWS instance. View [https://docs.aws.amazon.com/general/latest/gr/rande.html](https://docs.aws.amazon.com/general/latest/gr/rande.html) (Or google AWS Regions), and copy the  **Region** column for the **Region Name** of where you wish to host your server. In **configuration.py** of the root directory, set the **ec2_region** variable to the copied value.
 
